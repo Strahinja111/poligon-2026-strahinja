@@ -20,6 +20,7 @@ namespace poligon_2026_strahinja
             double PKPC = Vektor.VP(a, PC);
             if (PKPB * PKPC > 0) return 0;
             if (PKPB * PKPC < 0) return -1;
+
             return 1;
         }
     }
